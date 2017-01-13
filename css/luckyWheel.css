@@ -1,0 +1,96 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.contain{
+    z-index: 1;
+    background-image: url("../images/bg.jpg");
+    background-size:100%;
+    background-position:top;
+    background-repeat: no-repeat;
+    padding-top:calc((1010/641)*100%);
+    position:relative;
+}
+
+.wheel{
+    z-index: 2;
+    background-image: url(../images/wheel.png);
+    background-size: 100%;
+    background-position: top;
+    background-repeat: no-repeat;
+    padding-top: calc((301/301)*46%);
+    position: relative;
+    margin: -115% 27% auto 27%;
+}
+
+.rule{
+    z-index: 2;
+    background-image: url(../images/rule.png);
+    background-size: 100%;
+    background-position: top;
+    background-repeat: no-repeat;
+    padding-top: calc((107/161)*24%);
+    position: relative;
+    margin: -69% 6% auto 70%;
+}
+
+.lucky_list{
+    z-index: 2;
+    background-size: 100%;
+    background-position: top;
+    background-repeat: no-repeat;
+    padding-top: 27%;
+    position: relative;
+    margin: 88% 10% auto 10%;
+    overflow: hidden;
+}
+
+.rule_content{
+    z-index: 6;
+    position: relative;
+    margin: -120% 10%;
+    background-color: #fff;
+    height: 300px;
+    overflow-y: auto;
+    border: 1px dashed #000;
+    border-radius: 10px;
+    display:none;
+}
+
+.my_lucky_list{
+    z-index: 2;
+    background-image: url(../images/my_lucky_button.png);
+    background-size: 100%;
+    background-position: top;
+    background-repeat: no-repeat;
+    padding-top: calc((107/161)*24%);
+    position: relative;
+    margin: -40% 6% auto 70%;
+}
+
+
+#up_zzjs {
+    z-index: 3;
+    position: absolute;
+    line-height: 20px;
+    overflow: hidden;
+    top: 0;
+    margin: 3% 5%;
+}
+
+#up_li span{
+    font-size: 3vw;
+    line-height: 120%;
+}
+
+.mask{
+    background: rgb(33, 13, 30);
+    filter: alpha(opacity=45);
+    opacity: 0.45;
+    z-index: 4;
+    display: none;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    top: 0px;
+}
